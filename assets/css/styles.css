@@ -1,6 +1,6 @@
 body {
-    background: #A3C68C;
-    font-size: 24px;
+    margin: 20px;
+    font-size: 18px;
+    line-height: 1.6em;
     font-family: 'Economica', sans-serif;
-    color: white;
 }

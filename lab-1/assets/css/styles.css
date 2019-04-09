@@ -1,3 +1,27 @@
 body {
     background: rgb(13, 176, 182);
+    /* #FF003C #FABE28 #FF8A00 #88C100 #00C176 Color pallete suggestion*/
+    margin: 2em;
+    color: white;
+    font-family: 'Chivo', sans-serif;
+    font-weight: 900;
 }
+
+.letter {
+    width :300px;
+    height: 450px;
+    background: greenyellow;
+    position: relative;
+    margin: 100px 0;
+}
+
+.horizontal { width: 300px; height: 24px; }
+.vertical { width: 24px; height: 450px; }
+.bar { 
+    background: black; 
+    position: absolute; 
+    border-radius: 100%;
+}
+
+.a-right { right: 0; }
+.a-crossbar {top: 220px; }
