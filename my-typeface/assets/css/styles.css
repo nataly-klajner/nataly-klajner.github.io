@@ -1,0 +1,138 @@
+body {
+    width: 100%;
+    margin: 10px;
+    padding: 0;
+}
+
+.wrapper {
+    font-size: 0;
+}
+
+.letter {
+    width: 50.5px;
+    height: 100px;
+    background: #FFF2E6;
+    display: inline-block;
+    position: relative;
+    margin: 0 1px 50px 0;
+}
+
+.bar {
+    position: absolute;
+    background: #000;
+    width: 2px;
+}
+
+.crossbar {
+    position: absolute;
+    background: #000;
+    height: 2px;
+}
+  
+
+.left {
+    left: 9px;
+}
+
+.crossbar.left {
+    left: 10px;
+}
+
+.crossbar.left.serif {
+  left: 0px;
+}
+
+.right {
+    right: 9px;
+}
+
+.crossbar.right.serif {
+    right: 0px;
+}
+
+.top {
+  top: 1px;
+}
+
+.top.serif {
+    top: 0px;
+}
+
+.x {
+  top: 31.5px;
+}
+
+.crossbar.x {
+    top: 30.5px;
+  }
+
+.bottom {
+  bottom: 22px;
+}
+
+.crossbar.bottom {
+    bottom: 21px;
+}
+
+.desc {
+    bottom: 0px;
+}
+
+.bar.desc {
+    bottom: 1px;
+}
+
+.crossbar.right{
+  right: 0px;
+}
+
+.s.bar {
+  height: 10px;
+}
+
+.m.bar {
+  height: 22.5px;
+}
+
+.l.bar {
+  height: 46px;
+}
+
+.xl.bar {
+  height: 77px;
+}
+
+.xl.bar.x {
+    height: 67px;
+}
+
+.s.crossbar {
+  width: 10px;
+}
+
+.m.crossbar {
+    width: 20px;
+}
+
+.l.crossbar {
+  width: 30.5px;
+}
+
+.l.crossbar.middle {
+  top: 52.5px;
+}
+
+.letter.a .m.bar {
+    height: 25.5px;
+  }
+
+.letter.s .m.bar.bottom {
+    height: 24px;
+}
+
+.dot {
+    height: 5px;
+    top: 16px;
+}
+
+
