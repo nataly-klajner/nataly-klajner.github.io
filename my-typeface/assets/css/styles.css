@@ -1,20 +1,22 @@
 body {
     width: 100%;
-    margin: 10px;
+    margin: 40px 20px;
     padding: 0;
+    background: #8dc124;
 }
 
 .wrapper {
     font-size: 0;
 }
 
+
 .letter {
     width: 50.5px;
     height: 100px;
-    background: #FFF2E6;
+    /* background: rgba(255, 255, 255, 0.851); */
     display: inline-block;
     position: relative;
-    margin: 0 1px 50px 0;
+    margin: 0 1px 8px 0;
 }
 
 .bar {
@@ -27,6 +29,14 @@ body {
     position: absolute;
     background: #000;
     height: 2px;
+}
+
+.white .bar {
+    background: #fff;
+}
+
+.white .crossbar {
+  background: #fff;
 }
   
 
@@ -135,4 +145,32 @@ body {
     top: 16px;
 }
 
+.letter.u .crossbar.right.x.serif {
+  right: 10px;
+}
 
+.letter.t .t.bar {
+  height: 67px;
+}
+
+.letter.v .left.rotate {
+  transform: rotate(-18.2deg);
+  left: 16.5px;
+}
+
+.letter.v .right.rotate {
+  transform: rotate(18.2deg);
+  right: 16.5px;
+}
+
+.letter.t {
+  width: 25.25px;
+}
+
+.letter.i {
+  width: 25.25px;
+}
+
+.letter.l {
+  width: 25.25px;
+}
