@@ -3,10 +3,30 @@ body {
     margin: 40px 20px;
     padding: 0;
     background: #8dc124;
+    font-size: 30px;
+    font-family: 'Economica', sans-serif;
+    color:#000;
 }
 
-.wrapper {
+div { vertical-align: top; }
+
+.intro {
+  width: 300px;
+  display: inline-block;
+  margin: 0 24px 0 0;
+}
+
+/* .wrapper {
     font-size: 0;
+    margin-left: 500px;
+    top: 0px;
+    display: absolute;
+    vertical-align: top;
+} */
+
+.title {
+  display: inline-block;
+  font-size: 0;
 }
 
 
@@ -183,3 +203,8 @@ body {
     padding: 0;
   }
 }
+
+/* element.style {
+  transform: scale(1.8);
+  transform-origin: 0 0;
+} */
