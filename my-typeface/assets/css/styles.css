@@ -13,7 +13,15 @@ div { vertical-align: top; }
 .intro {
   width: 300px;
   display: inline-block;
-  margin: 0 24px 0 0;
+  margin: 0 24px 0 200px;
+}
+
+.intro.second {
+  margin: 0;
+}
+
+.author {
+  font-size: 20px;
 }
 
 /* .wrapper {
@@ -27,6 +35,7 @@ div { vertical-align: top; }
 .title {
   display: inline-block;
   font-size: 0;
+  margin-left: 20px;
 }
 
 
