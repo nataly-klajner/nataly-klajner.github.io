@@ -1,10 +1,10 @@
 body {
     width: 100%;
-    margin: 40px 20px;
-    padding: 0;
+    margin: 40px 50px;
+    padding: 0 0 500px 0;
     background: #8dc124;
-    font-size: 30px;
-    font-family: 'Economica', sans-serif;
+    font-size: 26px;
+    font-family: 'Noto Serif', serif;
     color:#000;
 }
 
@@ -16,8 +16,23 @@ div { vertical-align: top; }
   margin: 0 24px 0 200px;
 }
 
-.intro.second {
-  margin: 0;
+.second {
+  margin: 0 20px;
+}
+
+p.challenge {
+  font-size: 22px;
+  color: #425b0f;
+}
+
+.text {
+  width: 300px;
+  margin-top: 150px;
+  display: inline-block;
+}
+.text.second {
+  margin-left: 280px;
+  margin-top: 280px;
 }
 
 .author {
@@ -35,9 +50,26 @@ div { vertical-align: top; }
 .title {
   display: inline-block;
   font-size: 0;
-  margin-left: 20px;
 }
 
+.letter.a.column {
+  display: inline-block;
+  transform: scale(5);
+  transform-origin: 0 0;
+  /* margin: 0 24px 0 500px; */
+  top: 60px;
+  left: 100px;
+}
+
+.letter.a.column .bar:hover {
+  background: #f7c604;
+}
+.letter.a.column .crossbar:hover {
+  background: #f7c604;
+}
+.letter.a.column .s:hover {
+  background: #fff;
+}
 
 .letter {
     width: 50.5px;
