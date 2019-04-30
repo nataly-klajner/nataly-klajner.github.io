@@ -174,3 +174,12 @@ body {
 .letter.l {
   width: 25.25px;
 }
+
+
+@media screen and (max-width:600px) {
+  body {
+    width: 100%;
+    margin: 4px 2px;
+    padding: 0;
+  }
+}
