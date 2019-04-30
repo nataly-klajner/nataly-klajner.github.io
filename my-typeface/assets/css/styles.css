@@ -1,8 +1,8 @@
 body {
     width: 100%;
-    margin: 40px 50px;
+    margin: 50px 80px;
     padding: 0 0 500px 0;
-    background: #8dc124;
+    background: #79cae5;
     font-size: 26px;
     font-family: 'Noto Serif', serif;
     color:#000;
@@ -10,10 +10,20 @@ body {
 
 div { vertical-align: top; }
 
+.divider {
+  background: #000;
+  right: 0px;
+  margin: 70px 0;
+  width: 900px;
+  height: 2px;
+  position: absolute;
+}
+
 .intro {
   width: 300px;
   display: inline-block;
   margin: 0 24px 0 200px;
+  font-size: 22px;
 }
 
 .second {
@@ -22,7 +32,7 @@ div { vertical-align: top; }
 
 p.challenge {
   font-size: 22px;
-  color: #425b0f;
+  color: #fff;
 }
 
 .text {
@@ -30,13 +40,14 @@ p.challenge {
   margin-top: 150px;
   display: inline-block;
 }
-.text.second {
-  margin-left: 280px;
+.second .challenge {
+  width: 300px;
+  margin-left: 290px;
   margin-top: 280px;
 }
 
 .author {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 /* .wrapper {
@@ -49,6 +60,9 @@ p.challenge {
 
 .title {
   display: inline-block;
+}
+
+.word {
   font-size: 0;
 }
 
@@ -70,6 +84,20 @@ p.challenge {
 .letter.a.column .s:hover {
   background: #fff;
 }
+
+.row {
+  display: flex;
+  margin-top: 10px;
+}
+
+.text.indent {
+  width: 300px;
+  display: inline-block;
+}
+
+
+
+/* Every style about my typeface starts bwloe this point */
 
 .letter {
     width: 50.5px;
