@@ -6,45 +6,26 @@ body {
     font-size: 26px;
     font-family: 'Noto Serif', serif;
     color:#000;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
 }
 
 div { 
   vertical-align: top;
- }
+  height: 100vh;
+  position: relative;
+  display: inline-block; 
+}
 
-.divider.right {
+/* .divider {
   background: #000;
   right: 0px;
-  margin: 70px 0 100px 0;
+  margin: 70px 0;
   width: 900px;
   height: 2px;
   position: absolute;
-}
-
-.divider.left {
-  background: #000;
-  left: 0px;
-  margin-bottom: 100px;
-  width: 900px;
-  height: 2px;
-  position: absolute;
-  display: block;
-}
-
-.divider.four {
-  position: absolute;
-  top: 2540px;
-}
-
-.divider.five {
-  position: absolute;
-  top: 3020px;
-}
-
-.divider.six {
-  position: absolute;
-  top: 3600px;
-}
+} */
 
 .intro {
   width: 300px;
@@ -94,7 +75,7 @@ p.challenge {
 }
 
 .letter.a.column {
-  display: inline-block;
+  /* display: inline-block; */
   transform: scale(5);
   transform-origin: 0 0;
   /* margin: 0 24px 0 500px; */
@@ -114,149 +95,13 @@ p.challenge {
 
 .row {
   display: flex;
-  margin: 100px 0;
-}
-
-.row.narrow {
-  display: flex;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .text.indent {
   width: 300px;
   display: inline-block;
 }
-
-.row.three .word {
-  margin-top: 80px;
-}
-
-.word.this {
-  display: inline-block;
-  transform: scale(0.6);
-  transform-origin: 0 0;
-}
-
-#this {
-  position: relative;
-  top: -10px;
-  left: -40px;
-}
-
-.letter.n.explain {
-  display: inline-block;
-  transform: scale(5);
-  transform-origin: 0 0;
-  /* margin: 0 24px 0 500px; */
-  top: 40px;
-  left: 40px;
-}
-
-.explanation {
-  margin-top: 150px;
-  display: inline-block;
-}
-
-.second .after {
-  width: 250px;
-  margin-left: 210px;
-  margin-top: 35px;
-}
-
-.line {
-  border-top: 4px dashed #fff;
-  left: 210px;
-  top: 125px;
-  margin: 70px 0 100px 0;
-  width: 100px;
-  height: 10px;
-  position: relative;
-}
-
-.letter.n.explain .crossbar.x:hover {
-  background-color: #fff;
-}
-
-.letter.b.explain {
-  display: inline-block;
-  transform: scale(5);
-  transform-origin: 0 0;
-  /* margin: 0 24px 0 500px; */
-  top: 195px;
-  left: 40px;
-}
-
-.line.b {
-  border-top: 4px dashed #fff;
-  left: 100px;
-  top: 125px;
-  margin: 70px 0 100px 0;
-  width: 200px;
-  height: 10px;
-  position: relative;
-}
-
-.b.second .after {
-  width: 260px;
-  margin-left: 100px;
-  margin-top: 35px;
-}
-
-.letter.g.explain {
-  display: inline-block;
-  transform: scale(5);
-  transform-origin: 0 0;
-  /* margin: 0 24px 0 500px; */
-  top: 40px;
-  left: 40px;
-}
-
-.row.g {
-  margin-top: 200px;
-}
-
-.row.g .explanation {
-  width: 300px;
-}
-
-.line.g {
- top: 465px;
-}
-
-.row.g .after {
-  margin-top: 290px;
-}
-
-.row.sans p {
-  width: 400px;
-}
-
-.row.sans .word.serif {
-  position: relative;
-  left: -150px;
-  top: 53px;
-  transform: scale(2);
-  transform-origin: 0 0;
-}
-
-.row.sans .word.donot {
-  position: relative;
-  left: -290px;
-  top: 21px;
-  transform: scale(2);
-  transform-origin: 0 0;
-}
-
-.word.donot .letter {
-  margin-right: -10px;
-}
-.word.donot .letter.t {
-  margin-left: 5px;
-}
-.word.donot .letter.space {
-  width: 40px;
-}
-
 
 
 /* Every style about my typeface starts bwloe this point */
@@ -351,10 +196,6 @@ p.challenge {
   height: 10px;
 }
 
-.xs.bar {
-  height: 5px;
-}
-
 .m.bar {
   height: 22.5px;
 }
@@ -408,29 +249,14 @@ p.challenge {
   height: 67px;
 }
 
-.rotate {
-  height: 26.5px;
-  top: 31px;
-}
-
-.left.rotate {
+.letter.v .left.rotate {
   transform: rotate(-18.2deg);
   left: 16.5px;
-}/*for letters V and Y*/
-
-.right.rotate {
-  transform: rotate(18.2deg);
-  right: 16.5px;
-} /*for letter V*/
-
-.letter.y .right.rotate {
-  right: 20px;
-  top: 30.5px;
-  height: 70px;
 }
 
-.letter.y .left.desc {
-  left: 8px;
+.letter.v .right.rotate {
+  transform: rotate(18.2deg);
+  right: 16.5px;
 }
 
 .letter.t {
@@ -438,48 +264,11 @@ p.challenge {
 }
 
 .letter.i {
-  width: 21.25px;
-}
-
-.letter.f {
-  width: 31px;
+  width: 25.25px;
 }
 
 .letter.l {
   width: 25.25px;
-}
-
-.letter.a .l.crossbar.middle {
-  top: 51.5px;
-}
-
-.letter.m {
-  width: 80.5px;
-}
-
-.bar.center {
-  left: 39.5px;
-}
-
-.crossbar.center {
-  left: 31px;
-}
-
-.letter.m .crossbar.right.x {
-  right: 10px;
-}
-
-.letter.f .s.bar.top {
-  right: 0px;
-}
-
-.letter.f .m.crossbar.top {
-  top: 0px;
-  left: 10px;
-}
-
-.letter.f .m.crossbar {
-  left: 0px;
 }
 
 
